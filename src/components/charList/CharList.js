@@ -84,8 +84,6 @@ const CharList = (props) => {
         const errorMessage = error ? <ErrorMessage/> : null;
         const items = returnContent(charAll);
 
-        
-
     return (
         <div className="char__list">
             {spinner}
